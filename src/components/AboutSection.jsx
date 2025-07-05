@@ -3,10 +3,10 @@ import profileCropped from "../assets/profileCropped.jpg"; // Adjust the path as
 import { FaGithub, FaPython,FaReact, FaNodeJs, FaSquareJs   } from "react-icons/fa6";
 import { SiMysql, SiMongodb, SiHtml5, SiCss3, SiTailwindcss , SiCplusplus } from "react-icons/si";
 
-export const HeroSection = () => {
+export const AboutSection = () => {
     return (
         
-        <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center px-4">
+        <section id="about" className="relative min-h-screen flex flex-col items-center justify-center px-4">
             <div className="container max-w-4xl mx-auto text-center z-10" >
                 <span className="w-50 h-50 left rounded-full overflow-hidden shadow-lg">
                     <img
@@ -38,7 +38,7 @@ export const HeroSection = () => {
                         </a>
                         {"  "}
                         <a
-                            href=""
+                            href="/KeziahResume.pdf"
                             className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                         >
                             Download CV
